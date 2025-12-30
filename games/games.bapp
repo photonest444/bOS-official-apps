@@ -1,0 +1,9 @@
+import os
+def main(com):
+	ans = False
+	if com[0] == "games":
+		os.system(f"python {cwd}/games.py --code fourteam-bos-utilits-installer-app-games")
+		ans = True
+	else:
+		pass
+	return ans

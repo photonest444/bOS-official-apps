@@ -1,0 +1,3 @@
+import shutil
+
+shutil.move(cwd+"/"+com[1]+"/games.py",cwd+"/games.py")
